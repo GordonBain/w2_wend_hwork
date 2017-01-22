@@ -1,8 +1,8 @@
 require "minitest/autorun"
 require "minitest/rg"
-require_relative "../songs"
+require_relative "../song"
 require_relative "../room"
-require_relative "../guests"
+require_relative "../guest"
 
 
 class TestRoom < Minitest::Test
@@ -20,9 +20,14 @@ class TestRoom < Minitest::Test
     assert_equal("Green", @Room_1.name)
   end
 
-  def test_add_a_song_to_room
-    assert_equal("Red" + "Lady In Red", @Room_2.name + @Song_10.title)
+  def test_check_in_guest
+    assert_equal()
   end
+
+  def test_check_out_guest
+    assert_equal()
+  end
+
 
 
 end 
