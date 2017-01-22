@@ -1,9 +1,11 @@
 class Room
 
-def initialize(room_name, room_size)
-  @name = name
-  @size = size
-end
+  attr_accessor :name, :size
+
+  def initialize(name, size)
+    @name = name
+    @size = size
+  end
 
 
 

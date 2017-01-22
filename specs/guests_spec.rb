@@ -12,7 +12,15 @@ class TestGuests < Minitest::Test
   end 
 
   def test_total_number_of_guests
-    assert_equal(20, @guests.count)
+    assert_equal(20, @guests.number.count)
   end
+
+# def test_check_guest_into_room
+#   assert_equal(,)
+# end
+
+# def test_check_guest_out_of_room
+#   assert_equal(,)
+# end
 
 end

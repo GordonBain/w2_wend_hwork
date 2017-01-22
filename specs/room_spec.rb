@@ -20,5 +20,9 @@ class TestRoom < Minitest::Test
     assert_equal("Green", @Room_1.name)
   end
 
+  def test_add_a_song_to_room
+    assert_equal("Red" + "Lady In Red", @Room_2.name + @Song_10.title)
+  end
+
 
 end 
