@@ -3,17 +3,19 @@ class Room
   attr_accessor :name, :size
 
   def initialize(name, size)
-    @name = name
+    @name = names
     @size = size
-    @guest = []
+    @guests = []
   end
 
   def check_in_guest
-    @guest.size
+    # guest = David
+    @guests.push(guest)
   end
 
   def check_out_guest
-    @guest.pop
+     # guest = David
+    @guests.delete(guest)
   end
 
 
