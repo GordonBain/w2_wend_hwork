@@ -20,13 +20,21 @@ class TestRoom < Minitest::Test
     assert_equal("Green", @Room_1.name)
   end
 
-  def test_check_in_guest
-    assert_equal()
-  end
 
-  def test_check_out_guest
-    assert_equal()
-  end
+def test_confirm_number_of_guests
+  assert_equal(0, @guests.length)
+end
+
+
+  # def test_check_in_guest
+  #   @guests = David
+  #   assert_equal(guest, @guests)
+  # end
+
+  # def test_check_out_guest
+  #   @guests = David
+  #   assert_equal(guest, @guests)
+  # end
 
 
 
